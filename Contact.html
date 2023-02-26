@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="sidebar sidebarGo">
+        <nav>
+          <ul>
+            <li><a href="/">Name</a></li>
+            <li><a href="/intro.html"> My Intro</a></li>
+            <li><a href="/service.html">Service</a></li>
+            <li><a href="/blog.html">Blog</a></li>
+            <li><a href="/Contact.html">Contact Me</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="main">
+        <div class = "hamburger">
+          <img class="ham" src="ham.png"alt ="" width = "30px" height="30px">
+          <img class="cross" src="cross.png"alt ="" width="28px" height="30px">
+        </div>
+        <div class="contact-details">
+          <h1>Contact Me For Any Queries</h1>
+          <form>
+            <div class="form-group">
+              <label for="exampleInputName">Name</label>
+              <input
+                type="name"
+                class="form-control"
+                id="exampleInputName"
+                aria-describedby="nameHelp"
+              </div>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                </div>
+              <div id="emailHelp" class="form-text text-muted">
+                We'll never share your email with anyone else.
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="telephone">Phone No.</label>
+              <input
+                type="telephone"
+                class="form-control"
+                id="exampleInputtelephone"
+              />
+            </div>
+            
+            <div class="form-group">
+              <label for="exampleFormquery">Drop Your Query</label>
+              <textarea
+                class="form-control"
+                id="exampleFormquery"
+                rows="3"
+              ></textarea>
+            </div>
+            <div class ="form-group">
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
+
+
+
